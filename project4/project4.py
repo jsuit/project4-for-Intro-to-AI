@@ -730,6 +730,7 @@ if __name__ == '__main__':
     else:
         print "Error for Training Examples"
     #learn the tree
+    #this is where the magic happens
     if(sys.argv[3] == "giniIndex"):
           tree = Learner.TreeLearner(examples, dictAttr, labels, values, None, "giniIndex" )
     else: tree = Learner.TreeLearner(examples, dictAttr, labels, values, None )
