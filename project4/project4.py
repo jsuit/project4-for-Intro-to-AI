@@ -46,8 +46,7 @@ def classifyHelper(example):
     
     Here are some tests you can run:
     
-    project5.evaluateBinaryLearner(project5.classifier,project5.data1TestExamples,project5.data1TestLabels)
-    project5.evaluateBinaryLearner(project5.classifier,project5.data2TestExamples,project5.data2TestLabels)
+
     """   
  
 def evaluateBinaryLearner(classifier,testData,testLabels):    
